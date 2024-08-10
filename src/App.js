@@ -11,6 +11,9 @@ function App() {
   const Fun = () => {
     setcount(count+1)
   }
+  const Fun2 = () => {
+    setcount(count+10)
+  }
   return (
    <div>
     {
@@ -18,6 +21,7 @@ function App() {
     }
     <h1>{count}</h1>
    <button onClick={Fun}>Click</button>
+   <button onClick={Fun2}>Click</button>
     </div>
   );
 }
